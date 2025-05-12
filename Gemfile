@@ -26,3 +26,6 @@ gem 'rackup'
 # Puma es un servidor web concurrente y de alto rendimiento para aplicaciones Ruby/Rack.
 # Es comúnmente usado con Sinatra por su velocidad y capacidad para manejar múltiples solicitudes simultáneamente.
 gem 'puma', '~> 6.6'
+
+# Incluye la gema sinatra-contrib, que proporciona extensiones útiles para Sinatra, como recarga automática (reloader), helpers y herramientas de desarrollo.
+gem 'sinatra-contrib'
