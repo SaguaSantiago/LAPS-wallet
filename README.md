@@ -2,4 +2,6 @@
 
 Diagrama en desarrollo:
 
-![Diagrama Billetera Virtual](https://github.com/user-attachments/assets/5362e6e8-f197-4633-b226-41e2c3390074)
+
+![Diagrama_Billetera_Virtual](https://github.com/user-attachments/assets/c56c528b-fffa-4986-b402-0e9b18dcb6d3)
+
