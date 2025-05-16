@@ -7,6 +7,7 @@ require 'logger'
 require 'dotenv/load'
 require 'sinatra/activerecord'
 require_relative 'models/user'
+require_relative 'models/account'
 
 class App < Sinatra::Application
     configure :development do 
