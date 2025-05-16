@@ -29,3 +29,23 @@ gem 'puma', '~> 6.6'
 
 # Incluye la gema sinatra-contrib, que proporciona extensiones útiles para Sinatra, como recarga automática (reloader), helpers y herramientas de desarrollo.
 gem 'sinatra-contrib'
+
+# Gema: sinatra-activerecord
+# Integra ActiveRecord (un ORM de Ruby) con Sinatra.
+# Permite usar modelos y manejar bases de datos relacionales fácilmente
+gem 'sinatra-activerecord'
+
+# Gema: sqlite3
+# Proporciona una interfaz para usar SQLite, una base de datos ligera y sin servidor.
+# Es ideal para desarrollo o aplicaciones pequeñas, ya que almacena datos en un solo archivo.
+gem 'sqlite3'
+
+# Gema: rake
+# Herramienta para automatizar tareas en Ruby (similar a Make).
+# En este contexto, se usa para ejecutar tareas de base de datos, como migraciones con ActiveRecord (ej. `rake db:migrate`).
+gem 'rake'
+
+# Gema: dotenv
+# Permite cargar variables de entorno desde un archivo `.env` en el directorio raíz del proyecto.
+# se utilizara para gestionar el entorno
+gem 'dotenv'
